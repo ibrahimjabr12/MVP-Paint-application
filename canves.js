@@ -83,7 +83,8 @@ movemint = function(key){
             .catch(error=>console.log(error))
             var image = new Image()
             image.src = base64image;
-            document.getElementById('i')=image.src
+            image.width = image.height = "250";
+            document.getElementById('i').appendChild(image);
             
         });
     }            

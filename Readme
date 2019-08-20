@@ -1,0 +1,5 @@
+It is a single page application thet allows the user ti draw and take screenshots of the drawing and it does convert the images to base64 and save it in the dataBase run the painting application use 'nom start' to change color or fount size simply click on the color or font button
+
+Start drawing by clicking on the mouse and re-click to stop drawing
+
+To take a screenshot of the painting floor click on S
