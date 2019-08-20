@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>conves resize</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+    canvas {
+        border: 5px solid black;
+        margin: 10px
+    }
+    body{
+        margin: 0;
+    }
+     h4{
+        display: inline;
+        margin: 10px
+    }
+    button{
+        margin-right: 10px;
+        margin-bottom: 10px;
+        
+        
+    }
+    .fontcolorbuttom{
+        color: white;
+    }
+    </style>
+<script src="node_modules/html2canvas/dist/html2canvas.min.js"></script>
+<script src="node_modules/axios/dist/axios.min.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+    <canvas id ='canvas0'></canvas>
+    <div>
+        <h4>Font Color</h4>
+        <button id='black' class="fontcolorbuttom" style="background-color:black">Black</button>
+        <button id='red' class="fontcolorbuttom" style="background-color:red">Red</button>
+        <button id='blue' class="fontcolorbuttom" style="background-color:blue">Blue</button>
+        <button id='green' class="fontcolorbuttom" style="background-color:green">Green</button>
+    </div>
+    <div>
+        <h4>Font size</h4>
+        <button id="5" class="fontsizebuttom">Small</button>
+        <button id="7" class="fontsizebuttom">Medium</button>
+        <button id="9" class="fontsizebuttom">large</button>
+        <button id="11" class="fontsizebuttom">X-large</button>
+    </div>
+   
+            <div id="i"></div>
+                  
+   
+    <script src="canves.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
