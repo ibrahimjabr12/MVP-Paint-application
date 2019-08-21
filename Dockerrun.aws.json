@@ -1,0 +1,13 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "ibrahimjabr12/paintapp",
+      "Update": "true"
+    },
+    "Ports": [
+      {
+        "ContainerPort": "3022"
+      }
+    ],
+    "Logging": "/var/log/nginx"
+  }
